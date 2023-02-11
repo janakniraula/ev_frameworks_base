@@ -3041,6 +3041,7 @@ public class VolumeDialogImpl implements VolumeDialog, Dumpable,
                 }
             }
             playSound();
+            mController.vibrate(VibrationEffect.get(VibrationEffect.EFFECT_TEXTURE_TICK));
         }
 
         @Override
